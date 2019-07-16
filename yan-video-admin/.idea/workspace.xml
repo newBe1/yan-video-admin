@@ -2,11 +2,90 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="imooc-video-admin-mng:war" />
+      <artifact name="yan-video-admin-mng:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70ce9ffa-3eb3-4bdb-9617-95f95f384665" name="Default Changelist" comment="" />
+    <list default="true" id="70ce9ffa-3eb3-4bdb-9617-95f95f384665" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/BgmMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/BgmMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/VideosMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/VideosMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/BgmExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/UsersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/UsersReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/UsersReportExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/VideosExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/vo/Reports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/VideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/web/util/ZKCurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/bean/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/bean/AdminUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/controller/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/controller/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/resource/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/resource/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/imooc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/imooc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/classes/com/yr/bean/AdminUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/target/classes/com/yr/bean/AdminUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/classes/com/yr/controller/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/target/classes/com/yr/controller/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/classes/resource/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-mng/target/classes/resource/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/classes/com/yr/bean/AdminUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/classes/com/yr/controller/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/classes/mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/classes/resource/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/druid-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/jsqlparser-0.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/lombok-1.18.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/mybatis-3.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/mysql-connector-java-5.1.41.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/pagehelper-4.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/slf4j-api-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-aspects-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-mng/target/imooc-video-admin-mng/WEB-INF/lib/yan-video-admin-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/Bgm.java" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/Bgm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/Videos.java" beforeDir="false" afterPath="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/Videos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-pojo/target/classes/com/yr/Bgm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-pojo/target/classes/com/yr/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yan-video-admin-pojo/target/classes/com/yr/Videos.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/yan-video-admin-commom/target/" />
@@ -24,133 +103,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/Bgm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/Videos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-              <folding>
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#1351#1352#0" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
-                <element signature="e#1479#1480#0" expanded="true" />
-                <element signature="e#1527#1528#0" expanded="true" />
-                <element signature="e#1565#1566#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1651#1652#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-                <element signature="e#1734#1735#0" expanded="true" />
-                <element signature="e#1768#1769#0" expanded="true" />
-                <element signature="e#1823#1824#0" expanded="true" />
-                <element signature="e#1869#1870#0" expanded="true" />
-                <element signature="e#1905#1906#0" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
-                <element signature="e#1987#1988#0" expanded="true" />
-                <element signature="e#2063#2064#0" expanded="true" />
-                <element signature="e#2098#2099#0" expanded="true" />
-                <element signature="e#2131#2132#0" expanded="true" />
-                <element signature="e#2181#2182#0" expanded="true" />
-                <element signature="e#2225#2226#0" expanded="true" />
-                <element signature="e#2259#2260#0" expanded="true" />
-                <element signature="e#2288#2289#0" expanded="true" />
-                <element signature="e#2333#2334#0" expanded="true" />
-                <element signature="e#2369#2370#0" expanded="true" />
-                <element signature="e#2404#2405#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-                <element signature="e#2487#2488#0" expanded="true" />
-                <element signature="e#2531#2532#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/bean/AdminUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/controller/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="312">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/springMVC.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/resource/db.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="74" lean-forward="true" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -165,32 +126,68 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-pojo\src\main\java\com\yr\pojo\vo</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-yan-video-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/yan-video-admin-mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/yan-video-admin-commom/src/main/java/com/yr/utils.java" />
         <option value="$PROJECT_DIR$/yan-video-admin-commom/src/main/java/com/yr/utils/FetchVideoCover.java" />
         <option value="$PROJECT_DIR$/yan-video-admin-commom/src/main/java/com/yr/enums/BGMOperatorTypeEnum.java" />
         <option value="$PROJECT_DIR$/yan-video-admin-commom/src/main/java/com/yr/enums/VideoStatusEnum.java" />
-        <option value="$PROJECT_DIR$/yan-video-admin-service/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yan-video-admin-commom/src/main/java/n3r/idworker/utils/Ip.java" />
         <option value="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/Bgm.java" />
         <option value="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/User.java" />
         <option value="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/Videos.java" />
         <option value="$PROJECT_DIR$/yan-video-admin-commom/pom.xml" />
-        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/bean/AdminUser.java" />
-        <option value="$PROJECT_DIR$/yan-video-admin-common/pom.xml" />
         <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/SqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/controller/Hello.java" />
-        <option value="$PROJECT_DIR$/yan-video-admin-mng/pom.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-common/src/main/java/idworker/utils/IPv4Utils.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/resource/db.properties" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-transaction.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-zookeeper.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/springMVC.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/web/util/ZKCurator.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/VO/Reports.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/VO/Reports.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-common/src/main/java/org/n3r/idworker/Sid.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-common/pom.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-service/pom.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/hello.jsp" />
+        <option value="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/impl/UsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/imooc.jsp" />
+        <option value="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/VO/Reports.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/bean/AdminUser.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/BgmMapper.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapper.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapperCustom.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/VideosMapper.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/VideosMapper.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/BgmMapper.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapper.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapperCustom.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/mybatis/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/vo/Reports.java" />
+        <option value="$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/controller/Hello.java" />
       </list>
     </option>
   </component>
@@ -219,11 +216,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="小慕短视频后台管理系统" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="微信短视频后台管理系统" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="小慕短视频后台管理系统" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="微信短视频后台管理系统" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -231,9 +228,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="104" />
-    <option name="width" value="1475" />
-    <option name="height" value="1000" />
+    <option name="x" value="-305" />
+    <option name="y" value="-25" />
+    <option name="width" value="1750" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,6 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,7 +272,7 @@
               <item name="yan-video-admin-mng" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yanvideoadmin" type="b2602c69:ProjectViewProjectNode" />
@@ -280,8 +280,8 @@
               <item name="yan-video-admin-mng" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yanvideoadmin" type="b2602c69:ProjectViewProjectNode" />
@@ -289,8 +289,9 @@
               <item name="yan-video-admin-mng" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yr" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yanvideoadmin" type="b2602c69:ProjectViewProjectNode" />
@@ -298,16 +299,9 @@
               <item name="yan-video-admin-mng" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yanvideoadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yan-video-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="yan-video-admin-mng" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yr" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yanvideoadmin" type="b2602c69:ProjectViewProjectNode" />
@@ -335,52 +329,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yanvideoadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yan-video-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="yan-video-admin-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yanvideoadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yan-video-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="yan-video-admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yanvideoadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yan-video-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="yan-video-admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563184460692" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563268865885" />
+    <property name="last_opened_file_path" value="F:/抖音/Java仿抖音小程序/小程序实战代码文件专用分享文件夹/小程序实战 - 课程代码 20180530 完整版/大/mybatisGeneratorSqlmapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-pojo\src\main\java\com\yr\pojo" />
+      <recent name="F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-mapper\src\main\java\com\yr\mapper" />
+      <recent name="F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-pojo\src\main\java\com\yr" />
+      <recent name="F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-common\src\main\java" />
+      <recent name="F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-mapper\src\main\java\com\yr" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yr.VO" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-mng\src\main\resources\mybatis" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-mng\src\main" />
-      <recent name="F:\idea\video\yan-video-admin\yan-video-admin\yan-video-admin-commom\src\main\java" />
-      <recent name="F:\idea\video\yan-video-admin\yan-video-admin-commom\src\main\java\com\yr\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,14 +374,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.yan-video-admin-mng [tomcat7:run]">
+    <configuration name="yan-video-admin-mng [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yan-video-admin-mng" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="videoMng" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.511" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/imooc_video_admin_mng_war/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/yan_video_admin_mng_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="imooc-video-admin-mng:war">
+        <artifact name="yan-video-admin-mng:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/imooc_video_admin_mng_war" />
+            <option name="CONTEXT_PATH" value="/yan_video_admin_mng_war" />
           </settings>
         </artifact>
       </deployment>
@@ -465,10 +469,14 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="imooc-video-admin-mng:war" />
+          <artifact name="yan-video-admin-mng:war" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.yan-video-admin-mng [tomcat7:run]" />
+      <item itemvalue="Tomcat Server.videoMng" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -481,18 +489,22 @@
       <option name="presentableId" value="Default" />
       <updated>1563171853314</updated>
       <workItem from="1563171856053" duration="5389000" />
-      <workItem from="1563177452182" duration="6968000" />
+      <workItem from="1563177452182" duration="7450000" />
+      <workItem from="1563237160796" duration="31000" />
+      <workItem from="1563241355529" duration="4732000" />
+      <workItem from="1563246150069" duration="12225000" />
+      <workItem from="1563258577448" duration="9779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12357000" />
+    <option name="totallyTimeSpent" value="39606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17049706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17851417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -500,12 +512,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.44468546" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29826465" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4262473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -516,6 +525,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.44468546" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -532,265 +544,438 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/抖音/Java仿抖音小程序/小程序实战代码文件专用分享文件夹/小程序实战 - 课程代码 20180530 完整版/大/短视频后台管理【完结】/imooc-video-admin/imooc-video-admin-common/src/main/java/com/imooc/utils/FetchVideoCover.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-commom/src/main/java/com/yr/utils.java" />
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-commom/src/main/java/com/yr/enums.java" />
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-commom/src/main/java/com/yr.java" />
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-commom/src/main/java/com.java" />
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-common/src/main/java/com/yr/utils/FetchVideoCover.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-common/src/main/java/org/n3r/idworker/Sid.java" />
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/static/pages/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="364">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/static/citys/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="182">
+          <caret line="118" column="55" lean-forward="true" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yan-video-admin-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/service/impl/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-service/src/main/java/com/yr/web/util/ZKCurator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yan-video-admin-common/src/main/java/com/yr/enums/VideoStatusEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="234">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yan-video-admin-common/src/main/java/com/yr/enums/BGMOperatorTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="234">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-common/src/main/java/n3r/idworker/utils/Ip.java">
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/imooc.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-common/src/main/java/n3r/idworker/Id.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="154" column="25" lean-forward="true" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/Bgm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/Videos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1479#1480#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-            <element signature="e#2487#2488#0" expanded="true" />
-            <element signature="e#2531#2532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/bean/AdminUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/static/apps/css/todo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/controller/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/center/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="-822">
+          <caret line="44" column="68" lean-forward="true" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/resource/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="1" column="74" lean-forward="true" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+          <caret line="1" column="66" lean-forward="true" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapperCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/util/Log4jWebConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/util/Log4jConfigListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/springMVC.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1286">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-common/src/main/java/com/yr/utils/IMoocJSONResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-676">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="288" column="44" lean-forward="true" selection-start-line="288" selection-start-column="44" selection-end-line="288" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="716">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/resources/spring/springMVC.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/VideosMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersReportMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/VideosMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/BgmExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/VideosExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/Videos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/UsersExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/UsersReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/vo/Reports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/Bgm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-pojo/src/main/java/com/yr/pojo/UsersReportExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/BgmMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mapper/src/main/java/com/yr/mapper/BgmMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/bean/AdminUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yan-video-admin-mng/src/main/java/com/yr/controller/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -846,7 +1031,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>yan-video-admin-mng</last-edited>
+          <last-edited>yan-video-admin-pojo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,12 +1,6 @@
-package com.yr;
+package com.yr.pojo;
 
-/**
- * @author 程序鬼才
- * @version 1.0
- * @date 2019/7/15 16:14
- */
 public class Bgm {
-
     private String id;
 
     private String author;

@@ -9,7 +9,6 @@
     </parent>
     <artifactId>yan-video-admin-common</artifactId>
 
-
     <dependencies>
 
         <!-- Apache工具组件 -->

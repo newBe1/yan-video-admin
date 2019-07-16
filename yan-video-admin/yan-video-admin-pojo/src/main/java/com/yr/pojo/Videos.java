@@ -1,14 +1,8 @@
-package com.yr;
+package com.yr.pojo;
 
 import java.util.Date;
 
-/**
- * @author 程序鬼才
- * @version 1.0
- * @date 2019/7/15 16:14
- */
 public class Videos {
-
     private String id;
 
     private String userId;

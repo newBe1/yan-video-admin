@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>小慕短视频后台管理系统</name>
+    <name>微信短视频后台管理系统</name>
 
     <!-- 集中定义依赖版本号 -->
     <properties>
@@ -282,6 +282,10 @@
 
     </build>
     <modules>
-
+        <module>yan-video-admin-common</module>
+        <module>yan-video-admin-pojo</module>
+        <module>yan-video-admin-mapper</module>
+        <module>yan-video-admin-service</module>
+        <module>yan-video-admin-mng</module>
     </modules>
 </project>
