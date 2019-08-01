@@ -37,7 +37,7 @@
                     </a>
                     <ul class="sub-menu">
                         <li class="nav-item ">
-                            <a href="<%=request.getContextPath() %>/users/showList.action" class="ajaxify nav-link ">
+                            <a href="<%=request.getContextPath() %>/users/userList.action" class="ajaxify nav-link ">
                                 <span class="title">用户列表</span>
                             </a>
                         </li>
